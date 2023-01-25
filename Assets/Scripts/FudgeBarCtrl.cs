@@ -7,11 +7,12 @@ public class FudgeBarCtrl : MonoBehaviour
     [SerializeField] RectTransform bar;
     float fillAmount = 1;
     public float FillAmount { get { return fillAmount; } private set { fillAmount = value < 0 ? 0 : (value > 1 ? 1 : value); /*<-- keeps value between 0 - 1 range*/ UpdateUI(); } } //Calls UpdateUI everytime a new value is set
-    [SerializeField] float decreasePerSec = .05f;
+    [SerializeField] float decreasePerSec = .05f, startingFillAmount = .5f;
     float maxFillWidth;
     private void Start()
     {
         maxFillWidth = bar.sizeDelta.x;
+        SetFill(startingFillAmount);
     }
     private void Update()
     {
