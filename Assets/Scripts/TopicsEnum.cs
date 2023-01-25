@@ -1,0 +1,21 @@
+public enum TopicsEnum
+{
+    Gaming,
+    HorrorMovies,
+    Fishing,
+    Astronomy,
+    SpicyFood,
+    Cooking,
+    Football,
+    Rugby,
+    Boxing,
+    MMA,
+    Reading,
+    Drawing,
+    Knitting,
+    MakeUp,
+    Hairdressing,
+    Animals,
+    Racing,
+    Politics
+}
