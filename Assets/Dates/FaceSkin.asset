@@ -1,0 +1,83 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b197f32b8ff1a1d46aa97321dccb5765, type: 3}
+  m_Name: FaceSkin
+  m_EditorClassIdentifier: 
+  dateName: Skin
+  age: 7 minutes
+  neutralIMG: {fileID: 21300000, guid: 706964a566feaaa4389abe07e3b70822, type: 3}
+  happyIMG: {fileID: 21300000, guid: a3bdc55256a891544a9b38b38b17ed4e, type: 3}
+  angryIMG: {fileID: 21300000, guid: aacf60f034196214d9f8481e30c87066, type: 3}
+  bio: "Unsure why it\u2019s here, but it misses being a person face"
+  occupation: Facial Skin, currently unemployed
+  likes: '- Moisturiser
+
+    - Makeup
+
+    - Being attached to the rest of the head'
+  dislikes: "-Being ripped off the head\n- Acne\n- Face lifts (in every sense of
+    the phrase)\r"
+  notes: " The discarded face of what was once a slightly awkward but kind human
+    being, but has since been deemed less worthy than the skin of other dates in
+    the room. Insecure about this.\r"
+  dialogs:
+  - dialog: ...
+    responsable: 1
+    gResponse: "So\u2026seen any good films recently?"
+    nResponse: ...
+    bResponse: I like the ripped off look.
+  - dialog: ...
+    responsable: 1
+    gResponse: I always thought infinite breadsticks were never enough breadsticks.
+    nResponse: ...
+    bResponse: "What\u2019s it like being thrown away?"
+  - dialog: ...
+    responsable: 1
+    gResponse: "Lovely weather in the inter-dimension we\u2019re having"
+    nResponse: ...
+    bResponse: I thought the skinwalker was cute.
+  - dialog: ...
+    responsable: 1
+    gResponse: "Went to the kitchen looking for a snack yesterday but you weren\u2019t
+      there."
+    nResponse: ...
+    bResponse: Did you fall from heaven? Cuz your face looks smashed.
+  - dialog: ...
+    responsable: 1
+    gResponse: What moisturiser do you use?
+    nResponse: ...
+    bResponse: Are you related to the Wall of Flesh from Terraria?
+  - dialog: ...
+    responsable: 1
+    gResponse: Did you like the latest episode of EastEnders?
+    nResponse: ...
+    bResponse: "At least you\u2019re more interesting like this."
+  - dialog: ...
+    responsable: 1
+    gResponse: You have a great skincare routine!
+    nResponse: ...
+    bResponse: "You have 206 bones in your body, wanna make it 207- oh wait\u2026"
+  - dialog: ...
+    responsable: 1
+    gResponse: Netflix Daredevil is canon in the MCU.
+    nResponse: ...
+    bResponse: Have you ever watched Face/Off?
+  - dialog: ...
+    responsable: 1
+    gResponse: "You\u2019re too good to have been thrown away."
+    nResponse: ...
+    bResponse: '**pointing** skin!'
+  - dialog: ...
+    responsable: 1
+    gResponse: "I hope you\u2019ll be okay getting home safe."
+    nResponse: ...
+    bResponse: '**puts skin on own face**'

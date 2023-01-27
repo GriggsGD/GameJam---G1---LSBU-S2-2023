@@ -1,0 +1,88 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b197f32b8ff1a1d46aa97321dccb5765, type: 3}
+  m_Name: Time
+  m_EditorClassIdentifier: 
+  dateName: Time
+  age: Infinite
+  neutralIMG: {fileID: 21300000, guid: 6f49394fa50674b43ba5d759a22ea218, type: 3}
+  happyIMG: {fileID: 21300000, guid: 0ef490a6bfe4d1c44b475884f3d1017f, type: 3}
+  angryIMG: {fileID: 21300000, guid: 1a35f4e8d5ba933409258fc56ae49739, type: 3}
+  bio: "Greetings\u2026Player, at this moment in time you are reading my bio. Now
+    you're probably wondering why I called you Player\u2026I am time, I know everything.\r"
+  occupation: Keeper of all of time
+  likes: '- Meta jokes
+
+    - Singing clocks'
+  dislikes: '- Loading bars
+
+    - Delayed trains
+
+    - Cold Takeaway
+
+'
+  notes: All their power can be condensed into a green stone
+  dialogs:
+  - dialog: Ah so it is my time to be your date
+    responsable: 1
+    gResponse: Wow me father time
+    nResponse: What do you mean by that?
+    bResponse: "Let\u2019s get this over with."
+  - dialog: "Wait we can\u2019t do this date too quickly we have plenty of time"
+    responsable: 1
+    gResponse: WE ONLY HAVE 60 SECONDS.
+    nResponse: "I still don\u2019t get what you mean."
+    bResponse: Yeah but the dates usually aren't this odd.
+  - dialog: Shouldn't you have gone through several of these dates already?
+    responsable: 1
+    gResponse: "Shouldn\u2019t you already know my answer"
+    nResponse: This is being written before the order of the dates was decided.
+    bResponse: "I\u2019m taking a while to play through them all"
+  - dialog: "Well if you\u2019re so smart do you remember what Giggles\u2019 job
+      was?"
+    responsable: 1
+    gResponse: She was the clown girl right.
+    nResponse: She was a comedian
+    bResponse: "Was she the one who\u2019s friend set up her account"
+  - dialog: "Next, Where does Count Raccula live?\r"
+    responsable: 1
+    gResponse: Trashalvania
+    nResponse: A castle
+    bResponse: You mean the three racoons dressed as a vampire
+  - dialog: Finally I will ask, Who really likes Tax Evasion?
+    responsable: 1
+    gResponse: The Duck from the title
+    nResponse: Me
+    bResponse: The plague doctor
+  - dialog: "I guess that\u2019s a trick question since you shouldn\u2019t know"
+    responsable: 1
+    gResponse: "This isn\u2019t my first playthrough"
+    nResponse: I can still guess
+    bResponse: "I\u2019m just saying things to annoy you"
+  - dialog: Would you look at that the date is almost over
+    responsable: 1
+    gResponse: Tell me about yourself
+    nResponse: "Now what\u2026"
+    bResponse: "So can I go or\u2026"
+  - dialog: "Wait no I just realised I\u2019m the embodiment of time and I haven\u2019t
+      been thinking about how much time has been wasted without me even talking about
+      myself"
+    responsable: 1
+    gResponse: Guess we need another date then
+    nResponse: 'I read your profile before coming here. '
+    bResponse: I should really get going
+  - dialog: "Yes that\u2019s it, we met because of this date so we MUST go on another
+      so I can talk about myself."
+    responsable: 1
+    gResponse: I have time for that.
+    nResponse: "For the sequel maybe\u2026"
+    bResponse: You said that this was your time to date, no second chances.

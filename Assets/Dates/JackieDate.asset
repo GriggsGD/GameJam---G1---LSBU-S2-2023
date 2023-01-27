@@ -1,0 +1,95 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b197f32b8ff1a1d46aa97321dccb5765, type: 3}
+  m_Name: JackieDate
+  m_EditorClassIdentifier: 
+  dateName: Jackie
+  age: 31
+  neutralIMG: {fileID: 21300000, guid: 3018dce6cc04012488977202e6e4f47f, type: 3}
+  happyIMG: {fileID: 21300000, guid: f292aed59d137dc488b6c89a89ebcdf5, type: 3}
+  angryIMG: {fileID: 21300000, guid: 336322fa13240164c82184e41b36feab, type: 3}
+  bio: "Hi I\u2019m Jackie, I\u2019m a single gal ready to mingle with whoever comes
+    my way. Ready to date anyone who can keep up with my energy. See you on our date,
+    don\u2019t keep me waiting."
+  occupation: "Currently working a boring office job but I\u2019m much more about
+    that party lifestyle, show me the booze and I\u2019ll show you a good time. "
+  likes: '- Shopping
+
+    - A glass in my hand
+
+    - Partying
+
+    - Dogs
+
+    -
+    Reading'
+  dislikes: '- Wasting my time
+
+    - Sleazeballs '
+  notes: Has the best friend ever to help set up her dating profile
+  dialogs:
+  - dialog: Oh hi are you from online?
+    responsable: 1
+    gResponse: Are you Jackie Bowen?
+    nResponse: "I\u2019m here for an online date "
+    bResponse: "Not interested I\u2019m here for someone named Jackie"
+  - dialog: "Yes\u2026I\u2019m Jackie. Nice to meet you."
+    responsable: 1
+    gResponse: Are you okay?
+    nResponse: Would you like a drink?
+    bResponse: "You don\u2019t seem like the person in your profile"
+  - dialog: "I didn\u2019t make my profile my friend did, I\u2019m not that crazy
+      party person she wrote about if that\u2019s what you expected."
+    responsable: 1
+    gResponse: "That doesn\u2019t matter"
+    nResponse: "Don\u2019t worry I could tell."
+    bResponse: So it was all a lie?
+  - dialog: I did add some stuff to the likes though to be more authentic than what
+      she had written
+    responsable: 1
+    gResponse: So you still like reading and dogs then?
+    nResponse: What parts did you write?
+    bResponse: You must have written the parts about enjoying parties
+  - dialog: I wrote the parts about reading and dogs because they are my two favourite
+      things, I cannot think of anything better than curling up with a good book.
+    responsable: 1
+    gResponse: "I couldn\u2019t agree more, any recommendations."
+    nResponse: I can never finish a book.
+    bResponse: Movies are better though
+  - dialog: "You should read Kith and Kin, it\u2019s a very good fantasy adventure
+      and is perfect for anyone regardless of how much they read. I like to cuddle
+      up with Duke while I read it"
+    responsable: 1
+    gResponse: Is Duke your dog?
+    nResponse: "Who\u2019s Duke?"
+    bResponse: Is Duke your boyfriend?
+  - dialog: "Oh sorry, Duke is my dog, he\u2019s a 5 year old Saint Bernard"
+    responsable: 1
+    gResponse: "He\u2019s gotta be a huge pupper then"
+    nResponse: I once had a dog let me rub his belly.
+    bResponse: Are those the ones that you put in your handbag?
+  - dialog: "He\u2019s enormous, I\u2019ll have to let you meet him sometime"
+    responsable: 1
+    gResponse: I will give all the belly rubs!
+    nResponse: Does that mean I have secured a second date?
+    bResponse: "No thanks I\u2019m allergic."
+  - dialog: "Maybe\u2026we could go to a big park or something the next time we see
+      each other "
+    responsable: 1
+    gResponse: We could do some reading while we are there
+    nResponse: "I can\u2019t wait"
+    bResponse: "I\u2019m not really an outdoors person "
+  - dialog: "Well wherever we go I\u2019ll see you then"
+    responsable: 1
+    gResponse: I had fun
+    nResponse: Guess you should thank your friend
+    bResponse: Oh I forgot my wallet.

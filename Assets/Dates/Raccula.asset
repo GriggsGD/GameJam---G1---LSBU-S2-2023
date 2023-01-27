@@ -1,0 +1,91 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b197f32b8ff1a1d46aa97321dccb5765, type: 3}
+  m_Name: Raccula
+  m_EditorClassIdentifier: 
+  dateName: Count Raccula
+  age: 185
+  neutralIMG: {fileID: 21300000, guid: 97477b8a0df418a4e9cb24302a9f8ef2, type: 3}
+  happyIMG: {fileID: 21300000, guid: ee1f53701bc94a44f85c7849cc74785b, type: 3}
+  angryIMG: {fileID: 21300000, guid: 99f04a093cea4b9409b4a7ca72ac0db2, type: 3}
+  bio: "Hi\u2026Hello\u2026Greetings, I am Count Raccula from Trashalvania, you cannot
+    see me in your mirrors even if I am there\u2026I am too good at hiding. Don\u2019t
+    worry though I only come out at night.\r"
+  occupation: Usually I am known for sucking people's blood however I have now decided
+    that their trash is much more valuable so I will be accepting that instead but
+    I expect 3x as much to compensate.
+  likes: "- People who throw away the food they can\u2019t eat\n- Garlic\n- Steaks\n-
+    Candy floss"
+  dislikes: "- Panda\u2019s\n-  Galactic team up movies with talking trees\n- Brooms,
+    \n- Puddles\n- Autotuned singing rodents"
+  notes: Close relative of NosFerretu, recently heard getting assaulted by some animals
+    but he denies this ever happened and does not like it being brought up
+  dialogs:
+  - dialog: Before we begin can we dim the lights in here, this is too much for me.
+    responsable: 1
+    gResponse: Because you're a vampire right?
+    nResponse: 'Do you want better lighting for the mood? '
+    bResponse: 'I thought vampires only got hurt in sunlight. '
+  - dialog: "That\u2019s exactly what I mean let\u2019s close the windows, don\u2019t
+      I look better in this light?\r"
+    responsable: 1
+    gResponse: 'You certainly look more like a vampire, very scary? '
+    nResponse: "I don\u2019t mind, let's get this date started. "
+    bResponse: 'It really brings out the dark circles around your eyes? '
+  - dialog: "Wait really (I told you so) Shut up\u2026So err anyway how hungry are
+      you right now?\r"
+    responsable: 1
+    gResponse: Not particularly, you can have my plate if you want.
+    nResponse: Why do you want to suck my blood?
+    bResponse: "I\u2019m so starving I could eat a horse."
+  - dialog: "Oh um well\u2026(say something)...I am no longer in the blood sucking
+      business, trash is more valuable so I can eat any leftovers you may have."
+    responsable: 1
+    gResponse: "So that\u2019s why you live in Trashalvania."
+    nResponse: 'It must be busy work dealing with all that trash. '
+    bResponse: Am I hearing other voices?
+  - dialog: "Yes my castle has a lot of spirits living in it who help me when it's
+      appropriate, they are harmless and should stay quiet from here onwards (sorry).\r"
+    responsable: 1
+    gResponse: Wow a castle, I love a gothic aesthetic. If you need help decorating
+      let me know.
+    nResponse: Ever thought of getting rid of the spirits?
+    bResponse: A big castle like that probably needs sweeping, I will get my broom
+  - dialog: "(What) No need\u2026I like my castle the way it is, what are you like
+      with animals?\r\n"
+    responsable: 1
+    gResponse: "If it\u2019s vampire bats you are asking about then I\u2019m for
+      them all the way. "
+    nResponse: "Oh I\u2019m a huge animal fan"
+    bResponse: I love racoons.
+  - dialog: "Glad we can agree on that, since I am a definitely vampire it would
+      be odd if I didn\u2019t\r\n"
+    responsable: 1
+    gResponse: I always wondered how vampires get dressed.
+    nResponse: What type of bat can you turn into?
+    bResponse: "Are you sure you\u2019re a vampire?"
+  - dialog: "Well I can\u2019t see my reflection so hopefully that answers your question"
+    responsable: 1
+    gResponse: "This has been a great date\u2026"
+    nResponse: Alright I need to know something
+    bResponse: Something seems off here
+  - dialog: "What\u2019s with that face you look like you want to say something."
+    responsable: 1
+    gResponse: I think I might be falling for you?
+    nResponse: Why trash of all things?
+    bResponse: Are you secretly 3 racoons in a costume?
+  - dialog: "Wow would you look at the time it\u2019s almost dawn I must be going
+      but we should do this again at a better time anyway have fun bye."
+    responsable: 1
+    gResponse: "I\u2019ll cover the bill"
+    nResponse: 'See you soon '
+    bResponse: Hey wait you stole my food!

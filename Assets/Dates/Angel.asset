@@ -1,0 +1,96 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b197f32b8ff1a1d46aa97321dccb5765, type: 3}
+  m_Name: Angel
+  m_EditorClassIdentifier: 
+  dateName: Gabriel
+  age: Immeasurable
+  neutralIMG: {fileID: 21300000, guid: 4918e1fa1efe5754190a40118ea065dc, type: 3}
+  happyIMG: {fileID: 21300000, guid: bd7e66cd8aff09f46910a6897ec83508, type: 3}
+  angryIMG: {fileID: 21300000, guid: 1d249de78a6509f43b2c817d03938c57, type: 3}
+  bio: "Attempting to break free of god\u2019s rule by being worshipped themselves.
+    All they need is their first follower."
+  occupation: 'Currently a servant at the throne of god. I wish to break free of
+    this role and take heaven for myself. All I need is faith in my cause. I require
+    the most devoted of followers, but I suppose your gross fleshy self will do. '
+  likes: "- Themselves\n- Talking about their new faith\n- Apples\r"
+  dislikes: '- Meatbags such as you reading this
+
+    - Divine interventions
+
+    -
+    Umbran witches'
+  notes: BE NOT AFRAID. Once witnessed a god get shot in the head by a teenager
+  dialogs:
+  - dialog: 'Be not afraid, gross fleshy human. I am Gabriel, Soldier of God. '
+    responsable: 1
+    gResponse: 'I am not worthy to be in your presence. '
+    nResponse: I am very afraid.
+    bResponse: "\u2018Sup."
+  - dialog: "I wish to \u2018connect\u2019 with you via your human \u2018interests\u2019.
+      V\u2026 Video games, am I right?"
+    responsable: 1
+    gResponse: Such forms of entertainment are frivolous.
+    nResponse: Video games!
+    bResponse: "You don\u2019t sound very interested."
+  - dialog: "Satisfactory. I have engaged you successfully in \u2018conversation\u2019.
+      Is your disgusting meat brain obsessed with me yet? "
+    responsable: 1
+    gResponse: Wholly.
+    nResponse: "I\u2019d have to get to know you more to truly know."
+    bResponse: "That\u2019s a weird question."
+  - dialog: "I have been made aware of your human custom of \u2018icebreakers\u2019.
+      I have an icebreaker. Have you ever thought of overthrowing the holy order? "
+    responsable: 1
+    gResponse: "I am not strong enough to do so. You, however\u2026"
+    nResponse: All the time.
+    bResponse: What?
+  - dialog: "God\u2019s gross. He leaves his stuff everywhere, he won\u2019t give
+      us reign over our own form, he just sits on his sorry @*% all day and has us
+      do all the dirty work. I think I deserve some time on the throne. "
+    responsable: 1
+    gResponse: That throne was made for you.
+    nResponse: Sounds awful.
+    bResponse: Hey, this reminds me of paradise lost. You should read it!
+  - dialog: 'The power of gods is fueled by belief. If I am to grow in power, I must
+      have a sufficient following. Surely you are compelled to assist me in this
+      venture? '
+    responsable: 1
+    gResponse: I was born for this task.
+    nResponse: Give me a while to think about it.
+    bResponse: "I\u2019m not that big on religion."
+  - dialog: "After much deliberation, I have a name for my religion: \u2018The church
+      of Gabriel\u2019. Wonderful, no? "
+    responsable: 1
+    gResponse: All hail the mighty Gabriel!
+    nResponse: It has a great ring to it!
+    bResponse: Why not call it something more interesting?
+  - dialog: "I\u2019m- I\u2019m not actually \u2018the\u2019 Gabriel. I\u2019m- I\u2019m
+      a different one. It\u2019s hard to name so many angels and not have any repeats. "
+    responsable: 1
+    gResponse: "I\u2019m sure you\u2019re the better of the two!"
+    nResponse: "That doesn\u2019t matter to me."
+    bResponse: "I couldn\u2019t tell! You seem so similar! "
+  - dialog: You, my disgusting meatbag friend, are a prime candidate to be my first
+      follower. Will you throw away all previous needs, all previous beliefs, and
+      devote your life to me?
+    responsable: 1
+    gResponse: It would be an honour to serve you.
+    nResponse: "2 more dates and it\u2019s a deal"
+    bResponse: "I\u2019m not doing that."
+  - dialog: "Well then I believe our business is concluded here, I must find others
+      to recruit to my new faith. I would like to go on another\u2026date\u2026with
+      you."
+    responsable: 1
+    gResponse: We can discuss this faith again
+    nResponse: Till our next meeting then
+    bResponse: Maybe dial it back on the faith talk

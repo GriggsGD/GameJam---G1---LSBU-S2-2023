@@ -1,0 +1,91 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b197f32b8ff1a1d46aa97321dccb5765, type: 3}
+  m_Name: Giggles
+  m_EditorClassIdentifier: 
+  dateName: Giggles
+  age: 28
+  neutralIMG: {fileID: 21300000, guid: 4063c4377a8b6624db8314217f85a7b6, type: 3}
+  happyIMG: {fileID: 21300000, guid: 30020df848990d248b843bb3bd031e15, type: 3}
+  angryIMG: {fileID: 21300000, guid: ad3dae9ecce4c7245a52f5aa6a292a37, type: 3}
+  bio: "I\u2019m a cheery lil\u2019 clown who only wants to make you smile! You want
+    a balloon animal? I\u2019m great at balloon animals!\r"
+  occupation: "I\u2019m a clown! Call me up if you need an entertainer! "
+  likes: '- Balloons
+
+    -  Parties
+
+    -  Confetti
+
+    - The Circus '
+  dislikes: '- Coulrophobia
+
+    - Party poopers'
+  notes: "A rare species of clown highly sought after by clown hunters.\r"
+  dialogs:
+  - dialog: "Wow, lookie you! Ain\u2019t you just the sweetest lil\u2019 thing?"
+    responsable: 1
+    gResponse: Right back atcha!
+    nResponse: Guess I am pretty sweet.
+    bResponse: Why do you talk like that?
+  - dialog: "Name\u2019s Giggles! \u2018Prolly didn\u2019t need pointin\u2019 out,
+      but i\u2019m a clown!"
+    responsable: 1
+    gResponse: Great to meet ya Giggles!
+    nResponse: You certainly fit the description
+    bResponse: Cool..
+  - dialog: "Waddabout you, lil\u2019 fella? Waddaya do fer a livin\u2019?"
+    responsable: 1
+    gResponse: "I\u2019m a teacher! I\u2019m great with kids."
+    nResponse: I work in retail.
+    bResponse: "I\u2019m a streamer!"
+  - dialog: "Ain\u2019t it sad how kids these days are so scared of clowns? Lookat
+      me, do I look scary to ya?"
+    responsable: 1
+    gResponse: "It\u2019s because of those darn scary clown movies."
+    nResponse: Honestly, you look goofy more than anything else.
+    bResponse: "\u2026Kinda?"
+  - dialog: Ooh, ooh! I just thought of a new joke! What do you call it when someone
+      attacks instruments?
+    responsable: 1
+    gResponse: Escalation to violins.
+    nResponse: A bad day at band practice.
+    bResponse: Property damage.
+  - dialog: Oh- Oh I have another one! Why was the duck arrested?
+    responsable: 1
+    gResponse: Because he was selling quack.
+    nResponse: "What? He didn\u2019t do anything wrong! Free him!"
+    bResponse: Property damage.
+  - dialog: "D\u2019ya think the circus is a weird place for a first date? Oh I just
+      love the circus!"
+    responsable: 1
+    gResponse: "You kidding me? I\u2019d love that!"
+    nResponse: "Why don\u2019t we go to the movies instead?"
+    bResponse: Yeah, that is pretty weird.
+  - dialog: "Oh- um, \u2018prolly a weird question, but\u2026 \u2018Yer not with
+      the clown hunters, are ya?\r"
+    responsable: 1
+    gResponse: I would never associate with those fiends.
+    nResponse: "What\u2019s a clown hunter?"
+    bResponse: Damn, you found me out.
+  - dialog: "Prolly an odd time to tell ya, but I\u2019m an endangered species! Ain\u2019t
+      many clowns like me \u2018round no more."
+    responsable: 1
+    gResponse: The clown hunters will pay for this.
+    nResponse: "Wait, you\u2019re not human?"
+    bResponse: I hope you go extinct.
+  - dialog: Oh, ya thought this was a costume? Goodness, silly you! I just look like
+      this!
+    responsable: 1
+    gResponse: How the..? Are you a magician too?
+    nResponse: Well, happy to know now!
+    bResponse: "I\u2019m not into this any more."

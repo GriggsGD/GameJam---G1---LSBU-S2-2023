@@ -1,0 +1,110 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b197f32b8ff1a1d46aa97321dccb5765, type: 3}
+  m_Name: Gigachad
+  m_EditorClassIdentifier: 
+  dateName: Brad Gigan
+  age: 24
+  neutralIMG: {fileID: 21300000, guid: 87cb73e4633652446a8e74cfd3cada01, type: 3}
+  happyIMG: {fileID: 21300000, guid: c5a6371d547b87d4dbfdfafae102a94d, type: 3}
+  angryIMG: {fileID: 21300000, guid: 76a17555b49e0674c933d94ce504b984, type: 3}
+  bio: "Gym bro for Miami all about that swole life from before sunrise to sunset. 
+    We all have the same 24 hours in a day, what matters is how you use them. #Motivation
+    #PuttingTheWorkIn #Grind\r"
+  occupation: "When I\u2019m not sweating on the deadlift I\u2019m making stacks
+    on that crypto grind. On the side I do training regimens for people who want
+    to get in shape. Hit me up if you are interested. "
+  likes: '- Protein
+
+    - A good workout session
+
+    - Outdoor climbing
+
+    -
+    Motivating phonk music
+
+    - Body care
+
+    - Helping people realise their potential
+
+    -
+    A proper daily diet of eggs
+
+    - Chicken and water'
+  dislikes: '- Lack of effort
+
+    - Slow walkers
+
+    - People who have a lie in'
+  notes: "Once got locked in a gym overnight and didn\u2019t notice, only owns an
+    oversized and worn-out vest which he rarely wears"
+  dialogs:
+  - dialog: "So hey I saw your profile and thought you looked toned, you work out?
+      \r"
+    responsable: 1
+    gResponse: I live and breathe in the gym
+    nResponse: Yeah about once a week
+    bResponse: Not really it seems like too much work
+  - dialog: "You don\u2019t say, I can tell from a mile away when someone can change
+      their look easily and you are definitely one of them!\r"
+    responsable: 1
+    gResponse: Guess I have to start pushing past my limits then?
+    nResponse: Really? Perhaps I should go jogging more
+    bResponse: Yeah I thought about using steroids before to help
+  - dialog: No need for that, I can get you a proper regimen done by the end of the
+      day and we could start tomorrow.
+    responsable: 1
+    gResponse: Does it come with dietary recommendations too?
+    nResponse: Could it consist of stuff that can be done from my house.
+    bResponse: I never have a plan. I just do what I want and avoid what I dislike.
+  - dialog: "Don\u2019t worry it is personalised for each person and I will give
+      you the first week for free?"
+    responsable: 1
+    gResponse: You want that payment in Cash, card or crypto?
+    nResponse: "Couldn\u2019t hurt to try, I will ready my wallet."
+    bResponse: Fine but just for this week.
+  - dialog: "Great, oh look the date\u2019s almost over. What else do you do when
+      you are free?"
+    responsable: 1
+    gResponse: I immerse myself in nature by hiking.
+    nResponse: "I\u2019m a line dancing expert!"
+    bResponse: "I\u2019m usually tired so I like to take naps."
+  - dialog: "I didn\u2019t expect you to be into that, during a night out then what\u2019s
+      your drink of choice?"
+    responsable: 1
+    gResponse: Honestly I'm fine just having water.
+    nResponse: Negroni sbagliato with prosecco.
+    bResponse: Has to be an energy drink to get me through the night.
+  - dialog: Wild choice, reminds me of a party I went to where someone spills their
+      drink on me, I may have gotten annoyed.
+    responsable: 1
+    gResponse: "Oh, don\u2019t get me started on people who don\u2019t clean equipment
+      after they use it."
+    nResponse: 'I can get like that if someone listens to loud and obnoxious music. '
+    bResponse: 'Early risers give me headaches. '
+  - dialog: "Just hearing that is frustrating me, I think I\u2019m gonna go for a
+      jog after this to cool down, wanna come?"
+    responsable: 1
+    gResponse: "Hopefully we don\u2019t run into any snails."
+    nResponse: "Hopefully we don\u2019t run into any snails. The fitness grind lives
+      on."
+    bResponse: 'Is that necessary? '
+  - dialog: How would you relax after something stressful?
+    responsable: 1
+    gResponse: Easy, a spa day for my skin fixes everything.
+    nResponse: Watch a movie while on the exercise bike.
+    bResponse: I give myself a cheat day.
+  - dialog: Interesting approach, anyway it was nice to meet you.
+    responsable: 1
+    gResponse: If I see you at the gym I will be sure to spot you.
+    nResponse: Catch you another time.
+    bResponse: As a reward I will now treat myself to some fast food

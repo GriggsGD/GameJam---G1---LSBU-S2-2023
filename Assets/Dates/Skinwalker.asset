@@ -1,0 +1,91 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b197f32b8ff1a1d46aa97321dccb5765, type: 3}
+  m_Name: Skinwalker
+  m_EditorClassIdentifier: 
+  dateName: Norman Normalperson
+  age: Human Age
+  neutralIMG: {fileID: 21300000, guid: 9b93a0f39960c1e468cff08578e5992a, type: 3}
+  happyIMG: {fileID: 21300000, guid: 478a2fd4d0c8fd04caa10196aa2c911e, type: 3}
+  angryIMG: {fileID: 21300000, guid: 8d524975f3765e14cb24c789cb52fcb9, type: 3}
+  bio: Am Norman, I live life like everyone. I want friends
+  occupation: Spend time blinking and working on career
+  likes: '- Consuming air
+
+    - Drinking water
+
+    - Staring at dust
+
+    - Talking
+    about moss
+
+    - Walking alone at night in an undisclosed area'
+  dislikes: '- Bright light
+
+    - Sand, clothing
+
+    - Drains'
+  notes: Is not a purple guy?
+  dialogs:
+  - dialog: "Hello\u2026name\u2026Norman"
+    responsable: 1
+    gResponse: Wow you look amazing!
+    nResponse: Jackie is that you?
+    bResponse: AAHH WHAT IS UP WITH YOUR FACE
+  - dialog: "Me? Regularly wash face\u2026look younger\u2026probably what is."
+    responsable: 1
+    gResponse: So what do you like to do for fun
+    nResponse: You might have missed a spot
+    bResponse: What on earth is that stench
+  - dialog: "I garden\u2026with\u2026eyelids\u2026Get dirty from\u2026nose smell"
+    responsable: 1
+    gResponse: That must be fun, any fancy recipes.
+    nResponse: What do you grow
+    bResponse: Are all the fruit and veg in your garden dead too?
+  - dialog: "Snails\u2026taste yes\u2026good when mashed\u2026though\u2026ruin flesh
+      face"
+    responsable: 1
+    gResponse: Are you a chef?
+    nResponse: Are you a skinwalker?
+    bResponse: Are you french?
+  - dialog: "\u2026 \u2026 \u2026 \u2026 \u2026 \u2026 ... ... ... ... \u2026 yes\u2026
+      \u2026 \u2026 \u2026 \u2026 \u2026moving on, ever go\u2026beach?\r\n"
+    responsable: 1
+    gResponse: No, I don't really like going to the beach.
+    nResponse: "I don\u2019t have the time to but would like to."
+    bResponse: I love to relax on the sand in the sun.
+  - dialog: "Beach no good\u2026ruins\u2026face\u2026prefer moss"
+    responsable: 1
+    gResponse: 'A small walk in a forest is always lovely. '
+    nResponse: Staying at home is the best.
+    bResponse: I think the city is my kinda environment.
+  - dialog: "World\u2026very\u2026big and\u2026wet, Norman give\u2026wrapping box\u2026you
+      take."
+    responsable: 1
+    gResponse: Thank you Norman. *Take present*
+    nResponse: '*Take and say nothing*'
+    bResponse: "I\u2019m not taking that."
+  - dialog: '*Inside the box is a tongue, Norman is staring silently*'
+    responsable: 1
+    gResponse: "Ah it\u2019s\u2026beautiful"
+    nResponse: Why are you quiet, cat got your tongue.
+    bResponse: Ew is this a tongue
+  - dialog: "*Norman put\u2019s the tongue in your hair* This good\u2026date."
+    responsable: 1
+    gResponse: This was an amazing date.
+    nResponse: I won't forget this date.
+    bResponse: "I\u2019m gonna go."
+  - dialog: "Stay in\u2026bees, don\u2019t do\u2026grains, eat your\u2026teeth\r\n"
+    responsable: 1
+    gResponse: You have such a way with words.
+    nResponse: Till next time.
+    bResponse: Please never speak to me again.
