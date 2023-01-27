@@ -10,6 +10,10 @@ public class DatePickerCtrl : MonoBehaviour
     [SerializeField] TextMeshProUGUI characterTXT, scoreTXT;
     Animator anim;
     int currCharaIndex;
+    private void Awake()
+    {
+        anim = GetComponent<Animator>();
+    }
     private void Start()
     {
         if(GameManager.instance.pursuableDates.Count > 0)
