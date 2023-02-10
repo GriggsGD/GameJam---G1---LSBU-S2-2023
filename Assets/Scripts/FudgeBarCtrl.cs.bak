@@ -25,7 +25,7 @@ public class FudgeBarCtrl : MonoBehaviour
         }
         
 
-        /*//Testing purposes
+        //Testing purposes
         if (Input.GetKeyDown(KeyCode.DownArrow))
         {
             AdjustFill(-.1f);
@@ -33,7 +33,7 @@ public class FudgeBarCtrl : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.UpArrow))
         {
             AdjustFill(.1f);
-        }*/
+        }
     }
     void UpdateUI()
     {
